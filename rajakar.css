@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.head-section{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 142, 142);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    margin-top: 6px;
+    margin-left: 50px;
+    
+}
+.logo:hover{
+    text-shadow: 2px 5px 9px red;
+}
+.menu ul{
+    display: flex;
+    margin-right: 70px;
+    list-style: none;
+    margin-top: 15px;
+}
+.menu ul li{
+    margin-right: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+   
+}
+.menu ul li a:hover{
+    color: red;
+}
+.menu i{
+    visibility: hidden;
+}
+.razakar-1{
+    display: flex;
+}
+.razakar h1{
+    font-size: 9rem;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.razakar h1:hover{
+    color: red;
+    transition: all ease-in-out 1s;
+}
+.rajakar-adds h1{
+    margin-top: 80px;
+    margin-left: 100px;
+    padding: 20px;
+}
+.rajakar-adds p{
+    padding: 100px;
+    margin-top: -100px;
+    color: wheat;
+}
+.para{
+    margin-top: -80px;
+    margin-left: 50px;
+    color: red;
+}
+.amr-porichoy{
+    display: flex;
+}
+.my-img img{
+    height: 400px;
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 80px;
+    border: 6px solid red;
+}
+.my-img img:hover{
+    transform: scale(1.1);
+}
+.my-info{
+    margin-left: 100px;
+    margin-top: 80px;
+    width: 800px;
+    color: #fff;
+}
+.button1{
+    margin-top: 80px;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: red;
+    border-radius: 58px 0px 45px 0px;
+    cursor: pointer;
+}
+.button2{
+    margin-top: 80px;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: red;
+    border-radius: 58px 0px 45px 0px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: orangered;
+    transition: all ease-in .3s;
+}
+.imgarea{
+    height: 300px;
+    width: 1400px;
+    background-color: rgb(63, 3, 3);
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 8px red;
+}
+.imgfile img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 120px;
+    border: 3px solid red;
+    
+}
+.imgfile img:hover{
+    transform: scaleX(1.5);
+}
+.police-section{
+    display: flex;
+    height: 350px;
+    width: 1400px;
+    background-color: rgb(56, 11, 11);
+    box-shadow: 0 0 9px green;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+.police{
+    width: 600px;
+    padding: 100px;
+    color: #fff;
+}
+.police-img img{
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 160px;
+    border:8px solid #40460a ;
+    box-shadow: 0 0 9px red;
+}
+.police-img img:hover{
+    transform: scale(1.1);
+}
+.vedio{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.vedio video{
+    margin-left: 30px;
+}
+.vedio h1{
+    margin-bottom: 40px;
+    color: darkred;
+}
+.card{
+    margin-top: 100px;
+    height: 520px;
+    width: 350px;
+    /* border: 2px solid red; */
+    background-color: rgb(82, 20, 20);
+    border-radius: 10px;
+    margin-bottom: -80px;
+    box-shadow: 0 0 9px red;
+}
+.card:hover{
+    background-color: red;
+    transition: all ease 0.2s;
+}
+.card img{
+    height: 280px;
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.card h3,p,button{
+    padding: 10px;
+    color: white;
+}
+.card button{
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.all-card{
+    display: grid;
+    margin-left: 5px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bg-img{
+    margin-top: 150px;
+    height: 400px;
+    width: 100%px;
+    background-image: url(image/cool-background.png);
+    display: flex;
+    justify-content: space-around;
+}
+.bg-img h2{
+    color: red;
+    margin-bottom: 20px;
+}
+.last-part{
+    margin-top: 70px;
+    
+    
+}
+.last-part ul li{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.last-part ul li a:hover{
+    color: red;
+    text-decoration: none;
+}
+.last-part2{
+    color: red;
+    margin-top: 100px;
+    text-transform: capitalize;
+}
+.last-part2 input{
+    background-color: rgb(226, 183, 183);
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+}
+.btn2{
+    margin-top: 20px;
+    width: 150px;
+    color: red;
+    font-size: 20px;
+    border-radius: 50px 0px 45px 0px;
+    cursor: pointer;
+    background-color: #2e2424;
+    border: none;
+}
+.btn2:hover{
+    background-color: red;
+    color: wheat;
+}
+.footer{
+    height: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:775px){
+    .menu ul{
+        visibility: hidden;
+    }
+    .menu i{
+        visibility: visible;
+        margin-left: 160px;
+        margin-top: -17px;
+        position: absolute;
+    }
+    .razakar-1, .police-section{
+        display: block;
+    }
+    .razakar h1{
+        font-size: 60px;
+    }
+    .rajakar-adds h1{
+        margin-left: -5px;
+    }
+    .amr-porichoy{
+        display: block;
+    }
+    .para{
+        visibility: hidden;
+    }
+    .my-img img{
+        height: 300px;
+        width: 300px;
+        margin-top: -100px;
+    }
+    .my-info h1{
+        margin-top: -20px;
+        margin-left: -50px;
+        margin-bottom: 10px;
+    }
+    .my-info p{
+        width: 350px;
+    }
+    .button1{
+        margin-left: -30px;
+        font-size: 1rem;
+        padding: 10px;
+
+    }
+    .button2{
+        font-size: 1rem;
+        padding: 10px;
+
+    }
+    .imgarea{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 1150px;
+        width: 400px;
+    }
+    .police-section{
+        height: 800px;
+        width: 400px;
+    }
+    .police h1,p{
+        margin-left: -80px;
+        width: 360px;
+        margin-top: -20px;
+    }
+    .police-img {
+        margin-left: -120px;
+    }
+    .vedio video{
+        margin-bottom: 30px;
+        margin-left: -30px;
+    }
+    .all-card{
+        /* display: block; */
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 80px;
+    }
+    .card{
+        margin-left: -50px;
+    }
+    .card p{
+        margin-left: 1px;
+    }
+    .bg-img{
+        display: block;
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .last-part{
+        margin-left: 50px;
+    }
+    .last-part2 input{
+        width: 200px;
+    }
+}
